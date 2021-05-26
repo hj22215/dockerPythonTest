@@ -15,8 +15,14 @@ print(len(db.select("""select * from tblLogData order by logDate desc limit 500"
 db.close()
 
 
-# In[ ]:
+# In[1]:
 
 
 #!jupyter nbconvert --to script testScript.ipynb
+
+
+# In[ ]:
+
+
+
 
