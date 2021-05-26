@@ -4,3 +4,4 @@ RUN pip install mysqlclient
 RUN pip install sqlalchemy
 RUN pip install pandas
 RUN pip install pytz
+CMD ["python","./dockerPythonTest/testScript.py"]
