@@ -1,3 +1,3 @@
 FROM python:3
 RUN git clone https://github.com/hj22215/dockerPythonTest.git
-CMD ["pip install -r /dockerPythonTest/requirements.txt"]
+RUN pip install mysqlclient
