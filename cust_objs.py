@@ -10,7 +10,6 @@ import pandas as pd
 import time
 import datetime as dt
 from pandas.tseries.offsets import BDay
-#import odo
 import calendar
 
 from pytz import timezone
